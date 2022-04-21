@@ -1,0 +1,56 @@
+
+
+    .navbar-item-link{
+        position: relative;
+    }
+    .navbar-item-link:hover .navbar-item-sub{
+        visibility:visible;
+        top:180%;
+
+    }
+    .navbar-item-sub li:first-child{
+        border-top:1px solid red;
+
+    }
+.navbar-item-sub li{
+
+   
+      padding: 16px;
+    background-color: rgb(250, 253, 250);
+    cursor: pointer;
+}
+.navbar-item-sub li:hover{
+    background-color: red;
+}
+
+    .navbar-item-sub{
+        position:absolute;
+        top:200%;
+        visibility: hidden;
+        left:-30px;
+        right:0;
+         width:200px;
+         transition: all 0.1s linear;
+    
+     
+        z-index:1;
+       
+
+    }
+    .navbar-item{
+        display:flex;
+        justify-content: center;
+        list-style: none;
+    }
+    
+    #navbar{
+        padding:18px;
+        background-color: #fff;
+    }
+    .navbar-item-link{
+        margin:0rem 1rem;
+    }
+    .navbar-item-link a{
+        text-decoration: none;
+        color:#000;
+    }

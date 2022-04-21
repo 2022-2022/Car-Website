@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Recursive:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+:root{
+   --Mont: 'Montserrat', sans-serif;
+   --pop: 'Poppins', sans-serif;
+    --rec: 'Recursive', sans-serif;
+    --hover:red;
+    --btn-color:#bb162b;
+    --main-color:var(--btn-color);
+    
+
+}

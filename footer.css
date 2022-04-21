@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Recursive:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+:root{
+   --Mont: 'Montserrat', sans-serif;
+   --pop: 'Poppins', sans-serif;
+    --rec: 'Recursive', sans-serif;
+    --hover:red;
+    --btn-color:#bb162b;
+    --main-color:var(--btn-color);
+    
+
+}
+
+footer{
+    background:#000000;
+    padding:30px 16px;
+    color: #fff;
+    font-family:var(--rec);
+    margin-top:3rem;
+  
+
+}
+#footer_container{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+.footer_container-item{
+    flex:1;
+    
+}
+.footer_container-item-heading{
+    margin:2rem 0rem;
+}
+.footer_container-item-heading h1{
+font-size:1.8rem;
+font-weight:600;
+text-shadow: 2px 3px 2px #fff;
+text-transform:uppercase;
+}
+.footer_container-item-heading-item{
+    display: flex;
+    
+}
+.footer-icon-size{
+    font-size:1.8rem!important;
+}
+.footer_container-item-heading-item-content{
+    margin-left:0.9rem;
+}
+.footer_container-item-heading-item{
+    margin:1rem 0rem;
+}
+.footer_container-item-heading-item-content p{
+    margin-top:0.4rem;
+}
+.footer-container-item-heading-link li{
+    list-style: none;
+    padding:8px 0px;
+  
+
+}
+.footer-container-item-heading-link li a{
+    text-decoration:none;
+    color:#fff;
+  
+}
+.footer-container-email-item{
+  
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(138, 17, 17);
+    border: 2px solid #bb1655;
+    color: #999;
+    height: 40px;
+    width:78%;
+
+    border-radius: 0px 20px 20px 0px;
+   
+}
+#email{
+    border:none;
+    outline: none;
+    font-size:1rem;
+    color:#000;
+    background-color: #fff;
+    padding: 10px;
+   
+
+    
+
+}
+.footer_container-item-heading-item-logo img{
+    object-fit: cover;
+}
+.fa-check{
+  display: block;
+  font-size: 1.4rem!important;
+  transform: translateY(6px);
+  color:#fff!important;
+  cursor: pointer;
+}
+.footer_socialmedia-icon{
+    display: flex;
+    margin:0.9rem 0rem;
+    width:78%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.social-media-design{
+    width:36px;
+    height:36px;
+    border:2px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s linear;
+}
+.social-media-design:hover{
+    background-color: var(--hover);
+    border:2px solid var(--hover);
+
+}
+.fa{
+    font-size:1.2rem;
+}
+#last-footer{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    color:#fff;
+}

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&family=Recursive:wght@300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+:root{
+   --Mont: 'Montserrat', sans-serif;
+   --pop: 'Poppins', sans-serif;
+    --rec: 'Recursive', sans-serif;
+    --hover:red;
+    --btn-color:#bb162b;
+    --main-color:var(--btn-color);
+    
+
+}
+#gallery{
+    margin-top:3rem;
+    background-color: #fff;
+    padding-top: 3rem;
+    font-family: var(--pop);
+    display: none;
+}
+.gallery-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  #gallery-list{
+    text-align: center;
+    margin:2rem;
+    
+  }
+  .gallery-btn{
+    background:none;
+    padding:10px 16px;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    position: relative;
+    transition: all .3s linear;
+    margin:1rem;
+    font-family: var(--pop);
+  }
+  .gallery-btn:hover{
+    background-color: red;
+  }
+
+  .gallery-btn::before{
+  content:"";
+  width:100%;
+  background-color: red;
+  height:2px;
+  
+  left:0;
+  right:0;
+  display: block;
+  top:100%;
+  position: absolute;
+  }
+#Brakes,#Suspensions,#Wheels{
+    display:flex;
+    margin:1.2rem;
+   
+  }
+  #gallery-image{
+    width:80%;
+    margin:auto;
+  }
+.Brake,.Suspensions{
+ margin:0.8rem;
+}
